@@ -1,3 +1,9 @@
+'''
+# Install Docker Desktop for Mac first, then:
+docker pull osrf/ros:iron-desktop
+docker run -it osrf/ros:iron-desktop
+'''
+
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
