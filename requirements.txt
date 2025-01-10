@@ -1,0 +1,43 @@
+colcon-common-extensions
+numpy>=1.20.0
+transforms3d>=0.3.1
+rclpy>=3.3.10
+geometry_msgs>=4.2.3
+visualization_msgs>=4.2.3
+control_msgs>=4.4.0
+moveit_msgs>=2.2.1
+sensor_msgs>=4.2.3
+std_msgs>=4.2.3
+tf2_ros>=0.25.3
+
+# '''
+# # First install Homebrew if you haven't
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# # Install required dependencies
+# brew install python@3.10
+# brew install cmake
+# brew install opencv
+# brew install qt@5
+# brew install pyqt@5
+# brew install pkg-config
+# brew install sip
+# brew install graphviz
+
+# # Install colcon build tool
+# pip3 install -U colcon-common-extensions
+
+# # Create ROS 2 workspace
+# mkdir -p ~/ros2_ws/src
+# cd ~/ros2_ws
+
+# # Get ROS 2 code
+# git clone https://github.com/ros2/ros2.git
+# cd ros2
+# vcs import ../src < ros2.repos
+
+# # Install dependencies using rosdep
+# sudo rosdep init
+# rosdep update
+# rosdep install --from-paths ../src --ignore-src -y
+# '''
